@@ -1,0 +1,35 @@
+.announcement-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.announcement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.announcement-card__date {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--color-secondary);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.announcement-card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.announcement-card p {
+  font-size: 14px;
+  margin: 0;
+}

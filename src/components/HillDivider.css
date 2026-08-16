@@ -1,0 +1,15 @@
+.hill-divider {
+  display: block;
+  width: 100%;
+  height: 70px;
+}
+
+.hill-divider--flip {
+  transform: scaleY(-1);
+}
+
+@media (max-width: 640px) {
+  .hill-divider {
+    height: 44px;
+  }
+}
