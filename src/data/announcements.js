@@ -20,4 +20,11 @@ export const ANNOUNCEMENTS = [
     excerpt:
       "Parents are invited to discuss student progress with class teachers. Please check your class notice for the time slot.",
   },
+    {
+    id: "a4",
+    date: "2026-10-20",
+    title: "Teacher Meeting Scheduled",
+    excerpt:
+      "Parents are invited to discuss student progress with class teachers. Please check your class notice for the time slot.",
+  },
 ];

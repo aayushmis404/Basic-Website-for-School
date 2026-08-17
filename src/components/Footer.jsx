@@ -35,14 +35,14 @@ export default function Footer() {
         </div>
 
         <div className="footer__col">
-          <h4>Useful Links</h4>
+          {/* <h4>Useful Links</h4>
           <ul>
             {FOOTER_USEFUL_LINKS.map((link) => (
               <li key={link.to}>
                 <Link to={link.to}>{link.label}</Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
 
         <div className="footer__col">

@@ -10,20 +10,6 @@ import { IconBook, IconTeacher, IconBuilding, IconHeart, IconTarget, IconShield,
 import { ANNOUNCEMENTS } from "../data/announcements";
 import "./Home.css";
 
-const WHY_CHOOSE_US = [
-  { icon: <IconBook />, title: "Quality Education", description: "A curriculum focused on real understanding, not memorisation." },
-  { icon: <IconTeacher />, title: "Experienced Faculty", description: "Dedicated, qualified teachers who know every student by name." },
-  { icon: <IconBuilding />, title: "Modern Facilities", description: "Smart classrooms, labs and a library built for active learning." },
-  { icon: <IconHeart />, title: "Holistic Development", description: "Academics balanced with sports, arts and moral education." },
-];
-
-const PILLARS = [
-  { icon: <IconTarget />, title: "Focus on Excellence" },
-  { icon: <IconShield />, title: "Safe Environment" },
-  { icon: <IconUser />, title: "Individual Attention" },
-  { icon: <IconRocket />, title: "Future Ready" },
-  { icon: <IconLeaf />, title: "Moral Values" },
-];
 
 export default function Home() {
   return (
@@ -37,16 +23,20 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__body">
-            <span className="eyebrow">Biratnagar, Nepal</span>
-            <h1>Welcome to G-BIRAT STUDY</h1>
+            <span className="eyebrow">Damak-10, Jhapa/Nepal</span>
+            <h1>Welcome to<br></br> G-BIRAT STUDY</h1>
             <p>A place where every child is inspired to learn, grow and succeed.</p>
             <div className="hero__actions">
-              <Button to="/about" variant="primary">Discover More</Button>
+              <Button to="/about" variant="primary">About Us</Button>
               <Button to="/admission-process" variant="outline">Admission Open</Button>
             </div>
           </div>
           <div className="hero__media">
-            <PlaceholderImage label="G-BIRAT STUDY Students" ratio="4/3.2" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
             <div className="hero__badge">
               <span className="hero__badge-icon"><IconTeacher /></span>
               <div>
@@ -79,7 +69,12 @@ export default function Home() {
       <section className="section section--light">
         <div className="container split">
           <div className="split__media">
-            <PlaceholderImage label="G-BIRAT STUDY Campus" ratio="4/3.4" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
+            {/* <PlaceholderImage label="G-BIRAT STUDY Campus" ratio="4/3.4" /> */}
           </div>
           <div className="split__body">
             <span className="eyebrow">About Our School</span>
@@ -140,3 +135,18 @@ export default function Home() {
     </>
   );
 }
+
+const WHY_CHOOSE_US = [
+  { icon: <IconBook />, title: "Quality Education", description: "A curriculum focused on real understanding, not memorisation." },
+  { icon: <IconTeacher />, title: "Experienced Faculty", description: "Dedicated, qualified teachers who know every student by name." },
+  { icon: <IconBuilding />, title: "Modern Facilities", description: "Smart classrooms, labs and a library built for active learning." },
+  { icon: <IconHeart />, title: "Holistic Development", description: "Academics balanced with sports, arts and moral education." },
+];
+
+const PILLARS = [
+  { icon: <IconTarget />, title: "Focus on Excellence" },
+  { icon: <IconShield />, title: "Safe Environment" },
+  { icon: <IconUser />, title: "Individual Attention" },
+  { icon: <IconRocket />, title: "Future Ready" },
+  { icon: <IconLeaf />, title: "Moral Values" },
+];

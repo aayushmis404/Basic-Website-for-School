@@ -42,7 +42,12 @@ export default function Academics() {
       <section className="section section--light">
         <div className="container split split--reverse">
           <div className="split__media">
-            <PlaceholderImage label="G-BIRAT STUDY Curriculum" ratio="4/3.2" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
+            {/* <PlaceholderImage label="G-BIRAT STUDY Curriculum" ratio="4/3.2" /> */}
           </div>
           <div className="split__body">
             <span className="eyebrow">Curriculum</span>
@@ -92,7 +97,12 @@ export default function Academics() {
             </div>
           </div>
           <div className="split__media">
-            <PlaceholderImage label="Interactive Classroom" ratio="4/3.6" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
+            {/* <PlaceholderImage label="Interactive Classroom" ratio="4/3.6" /> */}
           </div>
         </div>
       </section>

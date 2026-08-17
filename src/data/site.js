@@ -6,11 +6,11 @@ export const SCHOOL = {
   tagline: "Learn Today, Lead Tomorrow",
   shortDescription:
     "G-BIRAT STUDY is a leading school in Biratnagar dedicated to academic excellence, strong values and the holistic growth of every child.",
-  phone: "+977 1-4523456",
-  whatsapp: "9771234523456",
-  email: "info@g-biratstudy.edu.np",
-  address: "Biratnagar-5, Koshi Province, Nepal",
-  hours: "Sun - Fri: 8:00 AM - 5:00 PM",
+  phone: "+977 9807034388",
+  whatsapp: "+977 9842100179 / @mishraaayush",
+  email: "gbiratstudy@gmail.com",
+  address: "Damak-10, Jhapa / Koshi Province, Nepal",
+  hours: "Mon-Fri: 9:00 AM - 4:00 PM",
   mapEmbedSrc:
     "https://www.google.com/maps?q=Biratnagar,Nepal&output=embed",
   social: {

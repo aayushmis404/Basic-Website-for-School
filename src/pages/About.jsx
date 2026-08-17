@@ -40,7 +40,12 @@ export default function About() {
       <section className="section">
         <div className="container split">
           <div className="split__media">
-            <PlaceholderImage label="G-BIRAT STUDY Community" ratio="4/3.4" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
+            {/* <PlaceholderImage label="G-BIRAT STUDY Community" ratio="4/3.4" /> */}
           </div>
           <div className="split__body">
             <span className="eyebrow">Who We Are</span>
@@ -90,7 +95,12 @@ export default function About() {
         <div className="container">
           <SectionTitle eyebrow="A Word From Our Principal" title="Principal's Message" />
           <div className="principal">
-            <PlaceholderImage label="Ramesh Adhikari" ratio="1/1" />
+            <img
+              src="/images/hero/hero.png"
+              alt="G-BIRAT STUDY Students"
+              className="hero__image"
+            />
+            {/* <PlaceholderImage label="Ramesh Adhikari" ratio="1/1" /> */}
             <div>
               <p className="principal__quote">
                 "At G-BIRAT STUDY, we believe education is about more than
